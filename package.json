@@ -1,0 +1,17 @@
+{
+  "name": "solana-arb-bot",
+  "version": "0.1.0",
+  "description": "Minimal Solana price-spread scanner using the Jupiter Aggregator API",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
